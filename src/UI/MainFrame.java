@@ -26,7 +26,7 @@ public class MainFrame extends JFrame {
      * Creates new form MainFrame
      */
     public MainFrame() {
-    currentLocale = new Locale("id"); // Default Bahasa Indonesia
+    currentLocale = new Locale("ID"); // Default Bahasa Indonesia
     loadLanguage(currentLocale);
 
     setTitle("Aplikasi Multi-Bahasa");
